@@ -2,7 +2,7 @@
 
 ## Live Heroku Web Page: https://sheltered-ridge-47254.herokuapp.com/
 
-## Application Live Page: ![Fitness Tracker]()   
+## Application Live Page: ![Fitness Tracker](https://github.com/Ysdra/Fitness_Tracker/blob/main/Fitness%20Tracker%20Live%20Page.PNG)   
 
 
 ## App Description:
