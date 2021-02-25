@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // mongoDB connect
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+    process.env.MONGODB_URI || 'mongodb://localhost/workout',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -23,7 +23,7 @@ mongoose.connect(
       useFindAndModify: false
     }
   );
-  
+
 // routes
 app.use(require("./routes/apiRoutes"));
 app.use(require("./routes/htmlRoutes"));
